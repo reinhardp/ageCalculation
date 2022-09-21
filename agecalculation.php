@@ -106,16 +106,16 @@ class AgeCalculationClass
 	}
 }
 
-
+/*
 $agecalc = new AgeCalculationClass;
-$str = $agecalc->getAgeHash("08-09-1965", "19-09-2022");
-//$str = $agecalc->getAgeArray("08-09-1965", "19-09-2022");
-//$str = $agecalc->getAgeString("08-09-1965", "19-09-2022");
+$hash = $agecalc->getAgeHash("08-09-1965", "19-09-2022");
+//$arr = $agecalc->getAgeArray("08-09-1965", "19-09-2022");
+//$string = $agecalc->getAgeString("08-09-1965", "19-09-2022");
 
-if($str == "") {
+if($string == "") {
 	$msg = $agecalc->getErrorMessage();
 	var_dump($msg);
 	exit;
 }
-var_dump($str);
-
+var_dump($string);
+*/
